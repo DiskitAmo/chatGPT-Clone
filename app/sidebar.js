@@ -36,10 +36,10 @@ const Sidebar = ({ session }) => {
           ))}
         </div>
       </div>
-      <div>
+      <div className="flex items-center justify-center">
         <img
           onClick={() => signOut()}
-          className="rounded-full flex items-center justify-center mb-4"
+          className="rounded-full  mb-4"
           src={session.user.image}
           alt="profile pic"
           width={30}
