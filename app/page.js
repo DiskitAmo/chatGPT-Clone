@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen  text-white px-5">
+    <div className="flex flex-col items-center justify-center h-full text-white px-5">
       <h1 className="text-5xl font-bold mt-6 mb-10 sm:mb-16 px-6">ChatGPT</h1>
 
       <div className="flex flex-col md:flex-row gap-3.5 items-center justify-center">

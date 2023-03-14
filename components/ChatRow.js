@@ -36,7 +36,7 @@ const ChatRow = ({ id, session }) => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-4 h-4"
+        className="w-5 h-5"
       >
         <path
           strokeLinecap="round"
@@ -53,7 +53,7 @@ const ChatRow = ({ id, session }) => {
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-4 h-4"
+        class="w-5 h-5"
         onClick={deleteChat}
       >
         <path

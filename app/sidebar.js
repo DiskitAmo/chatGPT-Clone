@@ -20,8 +20,8 @@ const Sidebar = ({ session }) => {
 
   //console.log(chats);
   return (
-    <div className="p-2 flex flex-col h-screen">
-      <div className="flex-1">
+    <div className="p-2 flex flex-col justify-between h-screen group-hover:max-w-[320px]">
+      <div className="flex-1  ">
         <div>
           {/* NextChat */}
           <NewChat session={session} />

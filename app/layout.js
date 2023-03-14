@@ -20,13 +20,13 @@ export default async function RootLayout({ children }) {
           ) : (
             <div className="flex">
               {/* sidebar */}
-              <div className="bg-[#202123] overflow-y-auto md:min-w-[20rem] max-w-xs h-screen">
+              <div className="bg-[#202123] overflow-y-auto md:min-w-[20rem] max-w-xs group">
                 <Sidebar session={session} />
               </div>
               {/* ClientProvider */}
               <ClientProvider />
               {/* content */}
-              <div className="bg-[#343541] h-full w-full overflow-y-auto md:min-w-[20rem]">
+              <div className="bg-[#343541] w-full overflow-y-auto md:min-w-[20rem]">
                 {children}
               </div>
             </div>
