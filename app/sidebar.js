@@ -39,7 +39,7 @@ const Sidebar = ({ session }) => {
       <div>
         <img
           onClick={() => signOut()}
-          className="rounded-full ml-6 mb-4"
+          className="rounded-full flex items-center justify-center mb-4"
           src={session.user.image}
           alt="profile pic"
           width={30}
